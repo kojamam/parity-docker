@@ -1,0 +1,8 @@
+version: "2"
+services:
+  parity:
+    image:  parity/parity:v1.8.3
+    volumes:
+      - parity_data:/root/.local/share/io.parity.ethereum
+volumes:
+  parity_data:
